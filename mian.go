@@ -159,9 +159,5 @@ func Thumb(infile , outimg string) (error) {
 }
 
 func main() {
-
-//	Thumb("/home/goproject/src/github.com/wangxin0814/gdalexample/WGS84/testdata/GF2_PMS2_E120.6_N36.1_20190120_L1A0003773896-PAN2.tiff", "/home/1.PNG")
-
-//	Thumb("/home/goproject/src/github.com/wangxin0814/gdalexample/WGS84/testdata/GF2_PMS2_E120.6_N36.1_20190120_L1A0003773896-MSS2.tiff", "/home/2.PNG")
-
+	//...
 }
