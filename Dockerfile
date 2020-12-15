@@ -8,6 +8,7 @@ RUN mkdir -p /home/tif
 RUN ln -s /usr/lib/libgdal.so.3.0.2  /usr/lib/libgdal.so.26
 ENV PKG_CONFIG_PATH=/usr/lib/pkgconfig/
 ENV LD_LIBRARY_PATH=/usr/lib/
+ENV SHAPE_ENCODING=UTF-8
 
 COPY build/gdalexample /usr/bin/gdalexample
 ENTRYPOINT ["/usr/bin/gdalexample"]
